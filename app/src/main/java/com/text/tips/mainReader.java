@@ -182,6 +182,7 @@ public class mainReader extends AppCompatActivity {
                       //  Toast.makeText(mainReader.this,"到底啦",Toast.LENGTH_SHORT).show();
                         Button button = (Button)findViewById(R.id.nextpage);
                         nextpage(button);
+                        scrollView.fullScroll(ScrollView.FOCUS_UP);
                         return  true;
 
                     }
@@ -189,6 +190,8 @@ public class mainReader extends AppCompatActivity {
                     {
                         Button button = (Button)findViewById(R.id.beforpage);
                         beforpage(button);
+                        scrollView.fullScroll(ScrollView.FOCUS_UP);
+
                     }
                 }
                 return false;
@@ -227,6 +230,7 @@ public class mainReader extends AppCompatActivity {
                 textshow.setTextColor(Color.rgb(158, 158, 158));
                 assert textoffset != null;
                 textoffset.setTextColor(Color.rgb(158,158,158));
+                assert offsetnumber != null;
                 offsetnumber.setTextColor(Color.rgb(158,158,158));
                 alltext.setTextColor(Color.rgb(158,158,158));
                 allnumber.setTextColor(Color.rgb(158,158,158));
