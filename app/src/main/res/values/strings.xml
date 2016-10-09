@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Textreader</string>
+    <string name="action_settings">Settings</string>
+    <string name="Exit">Exit</string>
+    <string name="openfile">打开文件</string>
+    <string name="setoffset">设置偏移地址</string>
+    <string name="nightmode">夜间模式</string>
+    <string name="ActiviteLable">文本阅读器</string>
+
+</resources>
