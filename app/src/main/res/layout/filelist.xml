@@ -8,6 +8,14 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="/mnt/sdcard/book"
+            android:id="@+id/textView11"
+            android:gravity="center_vertical" />
+
         <ListView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
