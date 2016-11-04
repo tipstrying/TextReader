@@ -31,10 +31,15 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text="Small Text"
+                android:text="测试字体\n huanhang"
                 android:id="@+id/textshow"
-                android:paddingLeft="16dp"
-                android:paddingRight="16dp" />
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+
+                android:textSize="18dp"
+                android:lineSpacingExtra="3dp"
+                android:lineSpacingMultiplier="1.5"
+                />
         </ScrollView>
 
         <LinearLayout
